@@ -2,6 +2,7 @@ package charpter2;
 
 /**
  * final修饰 静态方法
+ * 1: final修饰的静态方法不能覆盖；
  * @author qianzhaoliang
  * @since 2018/12/19
  */
@@ -21,7 +22,7 @@ class Child extends Parent {
         System.out.println("child: method1");
     }
     //编译报错 can't override final method
-/*    public static final void method2() {
+    /*public static final void method2() {
 
     }*/
 }
